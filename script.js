@@ -10,9 +10,9 @@ function volume_sphere() {
 		return;
 	}
 	let volume = (4/3) * Math.PI * Math.pow(r, 3);
-		v.value = volume.toFixed(13); 
+		v.value = volume.toFixed(4); 
 
-	v.value = volume;
+
 	
   
 } 
